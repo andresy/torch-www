@@ -12,4 +12,4 @@ This package provides dokuwiki configuration files.
   * debian/: debian specific installation files
   * plugins/: customized dokuwiki plugins needed for torch7 website
   * tpl/torch7/: customized torch7 website template
-
+  * pages/: front pages of the torch7 website
