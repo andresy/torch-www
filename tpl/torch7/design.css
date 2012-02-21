@@ -181,6 +181,7 @@ div.dokuwiki div#draft__status {
 }
 
 div.dokuwiki div.license {
+  display:none;
   padding: 0.5em;
   font-size: 90%;
   text-align: center;
@@ -348,10 +349,16 @@ div.dokuwiki div.breadcrumbs {
     /*background-color: __background_neu__;*/
     color: __text_neu__;
     font-size: 80%;
-    padding: 4px 0 2px 4px;
-    height:15px;
+    padding: 2px 0 1px 4px;
+    height:17px;
+    vertical-align: middle;
 }
 
+div.bcloc {
+    vertical-align: bottom;
+    padding-top: 3px;
+    float:left;
+}
 div.dokuwiki span.user {
   color: __text_other__;
   font-size: 90%;

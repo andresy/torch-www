@@ -73,8 +73,8 @@ div.dokuwiki .bar-search {
     float:right;
     text-align:right;
     vertical-align:top;
-    font-size:90%;
-    padding-bottom:2px;
+    font-size:80%;
+    padding-top: 0px;
 }
 
 div.dokuwiki #bar__top {

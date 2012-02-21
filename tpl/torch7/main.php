@@ -23,8 +23,9 @@ function tpl_youarehere2($sep=' &raquo; '){
     // check if enabled
 
     $parts = explode(':', $ID);
-    $count = count($parts);
 
+    $count = count($parts);
+    
     echo '<span class="bchead">'.$lang['youarehere'].': </span>';
 
     // always print the startpage
@@ -49,6 +50,7 @@ function tpl_youarehere2($sep=' &raquo; '){
     if($page == $conf['start']) return;
     echo $sep;
     tpl_pagelink($page);
+
     return true;
 }
 
@@ -68,7 +70,7 @@ function tpl_youarehere2($sep=' &raquo; '){
 
   <?php tpl_metaheaders()?>
 
-  <link rel="shortcut icon" href="<?php echo tpl_getFavicon() ?>" />
+  <link rel="shortcut icon" href="<?php echo DOKU_TPL?>images/favicon.ico" />
 
   <?php /*old includehook*/ @include(dirname(__FILE__).'/meta.html')?>
 </head>
@@ -110,10 +112,12 @@ function tpl_youarehere2($sep=' &raquo; '){
     <?php if($conf['breadcrumbs']){?>
     <div class="breadcrumbs">
        <!--<?php tpl_breadcrumbs()?>-->
+       <div class="bcloc">
        <?php tpl_youarehere2() ?>
-      <div class="bar-search" id="bar__topright">
-      <?php tpl_searchform()?>&nbsp;
-      </div>
+       </div>
+       <div class="bar-search" id="bar__topright">
+        <?php tpl_searchform()?>&nbsp;
+       </div>
     </div>
     <?php }?>
 
@@ -125,7 +129,7 @@ function tpl_youarehere2($sep=' &raquo; '){
     <?php }?>
 
   </div>
-  <?php tpl_flush()?>
+  <?php flush()?>
 
   <?php /*old includehook*/ @include(dirname(__FILE__).'/pageheader.html')?>
 
@@ -137,7 +141,7 @@ function tpl_youarehere2($sep=' &raquo; '){
 
   <div class="clearer"></div>
 
-  <?php tpl_flush()?>
+  <?php flush()?>
 
   <div class="stylefoot">
 
