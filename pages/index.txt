@@ -32,7 +32,7 @@ C. Farabet. [[http://ronan.collobert.com/pub/matos/2011_torch7_nipsw.pdf|Torch7:
 and MacOS X. With few tweaks, it should also run on Windows (we plan to
 support it soon).
 
-See the [[manual:index:|installation manual]] for download and installation details. We do
+See the [[manual:install:|installation manual]] for download and installation details. We do
 not provide binaries yet.
 
 **Torch7** git repository is hosted on [[http://github.com/andresy/torch|Github]].
