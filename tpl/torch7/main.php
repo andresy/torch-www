@@ -110,7 +110,9 @@ function tpl_youarehere2($sep=' &raquo; '){
     <?php if($conf['breadcrumbs']){?>
     <div class="breadcrumbs">
        <!--<?php tpl_breadcrumbs()?>-->
+       <div class="bcloc">
        <?php tpl_youarehere2() ?>
+       </div>
       <div class="bar-search" id="bar__topright">
       <?php tpl_searchform()?>&nbsp;
       </div>
