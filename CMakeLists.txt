@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+
 INSTALL(DIRECTORY "plugins/anchor" DESTINATION "/var/lib/dokuwiki/lib/plugins")
 INSTALL(DIRECTORY "tpl/torch7" DESTINATION "/var/lib/dokuwiki/lib/tpl")
 INSTALL(FILES "conf/local.php" DESTINATION "/etc/dokuwiki")
