@@ -1,0 +1,48 @@
+====== What's Torch? ======
+
+**Torch7** provides a Matlab-like environment for state-of-the-art machine
+learning algorithms. It is easy to use and provides a very efficient
+implementation, thanks to an easy and fast scripting language
+([[http://www.lua.org|Lua]]) and a underlying C implementation.
+
+**Torch7** is the official successor of [[http://www.torch.ch/torch3|Torch3]] and
+[[http://torch5.sourceforge.net|Torch5]].
+
+====== Credits =======
+
+**Torch7** is developed at [[http://www.idiap.ch|Idiap Research
+Institute]], [[http://www.cs.nyu.edu/~yann/|New York University]] and
+[[http://www.nec-labs.com|NEC Laboratories America]].
+
+At this time, **Torch7** is maintained by
+[[http://ronan.collobert.com|Ronan Collobert]] (the dictator),
+[[http://www.farabet.net|Clement Farabet]] (the chemist) and
+[[http://koray.kavukcuoglu.org|Koray Kavukcuoglu]] (Dr Jekyll). We also use
+the great Qt Lua interface from [[http://leon.bottou.org|Leon Bottou]].
+
+If you use **Torch7** for your work, please cite the following paper:
+
+R. Collobert, K. Kavukcuoglu and
+C. Farabet. [[http://ronan.collobert.com/pub/matos/2011_torch7_nipsw.pdf|Torch7: A Matlab-like Environment for Machine Learning]].
+//In BigLearn, NIPS Workshop, 2011//.
+
+====== Availability ======
+
+**Torch7** is distributed under a [[license|BSD license]]. It runs on Linux
+and MacOS X. With few tweaks, it should also run on Windows (we plan to
+support it soon).
+
+See the [[manual:index:|installation manual]] for download and installation details. We do
+not provide binaries yet.
+
+**Torch7** git repository is hosted on [[http://github.com/andresy/torch|Github]].
+
+======= Documentation ======
+
+[[manual:|Torch7 manual]] is available online, but also in the source
+packages.
+
+====== News ======
+
+  * **February 7, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
+ 
