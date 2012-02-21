@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -f /var/lib/dokuwiki/data/pages/manual
+rm -f /var/lib/dokuwiki/data/media/manual
+rm -f /var/lib/dokuwiki/data/pages/index.txt
