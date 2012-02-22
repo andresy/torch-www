@@ -1,10 +1,13 @@
 require 'paths'
 
+local remote = arg[1]
+
 function file2id(dir)
-   dir = dir:gsub('^/remote/torch7/dok', 'manual')
-   dir = dir:gsub('^/remote/torch7/', '')
+   local remote = remote:gsub('%-', '%%%-')
+   dir = dir:gsub('^' .. remote .. '/torch7/dok', 'manual')
+   dir = dir:gsub('^' .. remote .. '/torch7/', '')
    dir = dir:gsub('%.txt', '')
-   dir = dir:gsub('/', ':')
+--   dir = dir:gsub('/', ':')
    return dir
 end
 
@@ -23,18 +26,18 @@ function addfilesfromdir(files, dir)
 end
 
 local files = {}
-addfilesfromdir(files, '/remote/torch7')
+addfilesfromdir(files, remote .. '/torch7')
 
 for _,file in pairs(files) do
-   local cmd = 'wget -qO- ' .. '"http://localhost/dokuwiki/doku.php?id=' .. file2id(file) .. '"'
---   print(cmd)
+   local cmd = 'wget -qO- ' .. '"http://www.torch.ch/' .. file2id(file) .. '"'
+   print(cmd)
    local f = io.popen(cmd)
    local txt = f:read('*all')
    f:close()
 --   print(txt)
-   local imgbug = txt:match('img src%="(/dokuwiki/lib/exe/indexer%.php.-)"')
+   local imgbug = txt:match('img src%="(/lib/exe/indexer%.php.-)"')
    if imgbug then
-      local cmd = 'wget -qO- ' .. '"http://localhost' .. imgbug .. '"'
+      local cmd = 'wget -qO- ' .. '"http://www.torch.ch' .. imgbug .. '"'
       print(cmd)
       local f = io.popen(cmd)
       local txt = f:read('*all')
