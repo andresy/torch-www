@@ -44,5 +44,5 @@ packages.
 
 ====== News ======
 
-  * **February 7, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
+  * **February 23, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
  
