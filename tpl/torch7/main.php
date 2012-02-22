@@ -116,7 +116,7 @@ function tpl_youarehere2($sep=' &raquo; '){
        <?php tpl_youarehere2() ?>
        </div>
        <div class="bar-search" id="bar__topright">
-        <?php tpl_searchform()?>&nbsp;
+       <?php tpl_searchform()?>&nbsp;
        </div>
     </div>
     <?php }?>

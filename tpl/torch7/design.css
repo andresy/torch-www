@@ -359,6 +359,12 @@ div.bcloc {
     padding-top: 3px;
     float:left;
 }
+
+div.bcloc {
+    vertical-align: bottom;
+    padding-top: 3px;
+    float:left;
+}
 div.dokuwiki span.user {
   color: __text_other__;
   font-size: 90%;
