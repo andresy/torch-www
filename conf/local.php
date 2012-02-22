@@ -11,5 +11,8 @@ $conf['start'] = 'index';
 $conf['template'] = 'torch7';
 $conf['useacl'] = 1;
 $conf['superuser'] = '@admin';
+$conf['userewrite'] = 1;
+$conf['useslash'] = 1;
+$conf['basedir'] = '/';
 
 // end auto-generated content
