@@ -1,2 +1,3 @@
 /etc/dokuwiki/local.php
 /etc/dokuwiki/apache.conf
+/etc/dokuwiki/users.auth.php
