@@ -4,7 +4,6 @@ INSTALL(DIRECTORY "plugins/anchor" DESTINATION "/var/lib/dokuwiki/lib/plugins")
 INSTALL(DIRECTORY "tpl/torch7" DESTINATION "/var/lib/dokuwiki/lib/tpl")
 INSTALL(FILES "conf/local.php" DESTINATION "/etc/dokuwiki")
 INSTALL(FILES "conf/apache.conf" DESTINATION "/etc/dokuwiki")
-INSTALL(FILES "conf/users.auth.php" DESTINATION "/etc/dokuwiki")
 
 SET(CPACK_PACKAGE_CONTACT "ronan [at] collobert [dot] com")
 SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Configures Dokuwiki for Torch7 Web site.")
