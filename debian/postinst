@@ -4,3 +4,5 @@ ln -s /remote/torch7/dok /var/lib/dokuwiki/data/pages/manual
 ln -s /remote/torch7/dokmedia /var/lib/dokuwiki/data/media/manual
 ln -s /remote/torch7/index.txt /var/lib/dokuwiki/data/pages/index.txt
 ln -s /remote/torch7/license.txt /var/lib/dokuwiki/data/pages/license.txt
+
+echo > /etc/dokuwiki/users.auth.php
