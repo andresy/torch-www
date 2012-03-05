@@ -28,7 +28,7 @@ C. Farabet. [[http://ronan.collobert.com/pub/matos/2011_torch7_nipsw.pdf|Torch7:
 
 ====== Availability ======
 
-**Torch7** is distributed under a [[license|BSD license]]. It runs on Linux
+**Torch7** is distributed under a [[license|BSD license]]. It runs on Linux, FreeBSD
 and MacOS X. With few tweaks, it should also run on Windows (we plan to
 support it soon).
 
@@ -46,5 +46,6 @@ Also, we have a [[http://groups.google.com/group/torch7|torch7 google group]] wh
 
 ====== News ======
 
+  * **Mars 5, 2012** FreeBSD is now supported. GotoBlas/OpenBlas support added.
   * **February 23, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
  
