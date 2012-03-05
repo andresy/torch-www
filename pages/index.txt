@@ -42,10 +42,10 @@ not provide binaries yet.
 [[manual:|Torch7 manual]] is available online, but also in the source
 packages.
 
-Also, we have a [[http://groups.google.com/group/torch7|torch7 google group]] where users can post questions and share ideas.
+Also, we have a [[http://groups.google.com/group/torch7|Torch7 discussion group]] where users can post questions and share ideas.
 
 ====== News ======
 
-  * **Mars 5, 2012** FreeBSD is now supported. GotoBlas/OpenBlas support added.
+  * **Mars 5, 2012** FreeBSD is now supported. GotoBlas/OpenBlas support added. Torch7 discussion group created.
   * **February 23, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
  
