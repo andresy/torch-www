@@ -37,6 +37,13 @@ not provide binaries yet.
 
 **Torch7** git repository is hosted on [[http://github.com/andresy/torch|Github]].
 
+====== Additional Packages ======
+
+We are pleased to share useful contributor packages through the
+[[manual:install#the_torch_package_management_system|torch-pkg]]
+system. See the list of [[http://www.torch.ch/packages.html|available
+packages]] for more details.
+
 ======= Documentation ======
 
 [[manual:|Torch7 manual]] is available online, but also in the source
