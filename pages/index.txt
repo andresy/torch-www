@@ -40,9 +40,8 @@ not provide binaries yet.
 ====== Additional Packages ======
 
 We are pleased to share useful contributor packages through the
-[[manual:install#the_torch_package_management_system|torch-pkg]]
-system. See the list of [[http://www.torch.ch/packages.html|available
-packages]] for more details.
+[[manual:install:index#the_torch_package_management_system|torch-pkg]]
+system. See the list of [[packages|available packages]] for more details.
 
 ======= Documentation ======
 
