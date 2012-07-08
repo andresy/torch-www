@@ -228,7 +228,7 @@ div.dokuwiki div.secedit input.button {
   font-size: 10px;
   cursor: pointer;
   float: right;
-  display: inline;
+  display: none;
 }
 
 /* ----------- page navigator ------------- */
