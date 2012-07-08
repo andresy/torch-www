@@ -122,8 +122,6 @@ rm -f $dokutar
 cd "dokuwiki"
 cp -a $srcdir/tpl/torch7 lib/tpl/.
 cp -a $srcdir/conf/local.php.lcl conf/local.php
-//cp -a $srcdir/conf/acl.auth.php.lcl conf/acl.auth.php
-//cp -a $srcdir/conf/users.auth.php.lcl conf/users.auth.php
 cp -a $srcdir/plugins/anchor lib/plugins/.
 cp $srcdir/pages/*.txt data/pages/.
 
