@@ -41,7 +41,7 @@ not provide binaries yet.
 
 We are pleased to share useful contributor packages through the
 [[manual:install:index#the_torch_package_management_system|torch-pkg]]
-system. See the list of [[packages|available packages]] for more details.
+system. See the list of [[manual:packages|available packages]] for more details.
 
 ======= Documentation ======
 
