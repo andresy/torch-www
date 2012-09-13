@@ -1,6 +1,6 @@
 ====== News ======
 
-  * **September 12, 2012** luaT API has been greatly simplified and updated. Please, recompile all your installed packages and read the [[manual:luaT|new luaT documentation]].
+  * **September 12, 2012** luaT API has been greatly simplified and updated. Please, recompile all your installed packages and read the [[manual:luaT:|new luaT documentation]].
   * **Mars 5, 2012** FreeBSD is now supported. GotoBlas/OpenBlas support added. Torch7 discussion group created.
   * **February 23, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
  
