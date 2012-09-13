@@ -1,3 +1,9 @@
+====== News ======
+
+  * **September 12, 2012** luaT API has been greatly simplified and updated. Please, recompile all your installed packages and read the [[manual:luaT:|new luaT documentation]].
+  * **Mars 5, 2012** FreeBSD is now supported. GotoBlas/OpenBlas support added. Torch7 discussion group created.
+  * **February 23, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
+ 
 ====== What's Torch? ======
 
 **Torch7** provides a Matlab-like environment for state-of-the-art machine
@@ -41,7 +47,7 @@ not provide binaries yet.
 
 We are pleased to share useful contributor packages through the
 [[manual:install:index#the_torch_package_management_system|torch-pkg]]
-system. See the list of [[packages|available packages]] for more details.
+system. See the list of [[manual:packages|available packages]] for more details.
 
 ======= Documentation ======
 
@@ -50,8 +56,3 @@ packages.
 
 Also, we have a [[http://groups.google.com/group/torch7|Torch7 discussion group]] where users can post questions and share ideas.
 
-====== News ======
-
-  * **Mars 5, 2012** FreeBSD is now supported. GotoBlas/OpenBlas support added. Torch7 discussion group created.
-  * **February 23, 2012** the website is now up! First official release coming soon (we already use **Torch7** in real-life applications!).
- 
