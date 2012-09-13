@@ -85,7 +85,7 @@ dokuweb="http://www.splitbrain.org/_media/projects/dokuwiki/$dokutar"
 
 if [ -d "$sitedir" ]
 then
-    echo "> Using $sitedir/dokuwiki as install location"
+    echo "> Using $sitedir/torch as install location"
 else
     echo "> ** ERROR **"
     echo "> It seems that Web Sharing is not enabled, you do not have Sites directory"
@@ -115,11 +115,11 @@ then
 fi
 
 ## clean-up
-mv $dokusrc "dokuwiki"
+mv $dokusrc "torch7"
 rm -f $dokutar
 
 ## add torch stuff
-cd "dokuwiki"
+cd "torch7"
 cp -a $srcdir/tpl/torch7 lib/tpl/.
 cp -a $srcdir/conf/local.php.lcl conf/local.php
 cp -a $srcdir/plugins/anchor lib/plugins/.
@@ -135,7 +135,7 @@ sudo chown -R www data conf lib/plugins
 
 ## ALL DONE !!!
 echo "> ALL DONE"
-open "http://localhost/~$USER/dokuwiki"
+open "http://localhost/~$USER/torch7"
 
 
 
