@@ -66,7 +66,11 @@ then
     echo ">> more details in (http://www.dokuwiki.org/install:macosx)"
     echo ">"
     echo "> Restart web sharing"
+    echo "> On Lion:"
     echo "> from System Preferences/Sharing"
+    echo "> On Mountain Lion:"
+    echo "> sudo apachectl start"
+    echo "> mkdir ~/Sites"
     exit 1;
 fi
 
@@ -74,7 +78,12 @@ http=`ps aux | grep httpd | grep -v grep | wc -l`
 if [ "$http" -lt "1" ]
 then
     echo "> ** ERROR **"
-    echo "> Please turn on web sharing from System Preferences/Sharing"
+    echo "> Please turn on web sharing"
+    echo "> On Lion:"
+    echo "> from System Preferences/Sharing"
+    echo "> On Mountain Lion:"
+    echo "> sudo apachectl start"
+    echo "> mkdir ~/Sites"
     exit 1;
 fi
 
@@ -89,6 +98,11 @@ then
 else
     echo "> ** ERROR **"
     echo "> It seems that Web Sharing is not enabled, you do not have Sites directory"
+    echo "> On Lion:"
+    echo "> from System Preferences/Sharing"
+    echo "> On Mountain Lion:"
+    echo "> sudo apachectl start"
+    echo "> mkdir ~/Sites"
     exit 1;
 fi
 
